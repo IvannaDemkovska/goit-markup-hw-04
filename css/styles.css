@@ -172,6 +172,22 @@ body {
 .first-conteiner {
   padding: 120px 0;
 }
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 264px;
+  height: 112px;
+  margin: 0 0 8px 0;
+}
+
+.features-icon .icon {
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+}
+
 .first-section-list {
   display: flex;
   gap: 24px;
@@ -255,6 +271,36 @@ body {
 .name-staff {
   margin-bottom: 8px;
 }
+
+/* icons */
+.social-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-icon-list-item {
+  width: 40px;
+  height: 40px;
+}
+.link-icon {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+}
+.link-icon:hover,
+.link-icon:focus {
+  background-color: var(--color-ocean);
+}
+.link-icon .icon {
+  fill: var(--color-cloud);
+}
+.castomers-icon {
+  fill: currentColor;
+}
 /**
   |============================
   | footer section
@@ -285,6 +331,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-cloud);
   max-width: 264px;
+}
+.footer .icon {
+  fill: var(--color-cloud);
 }
 /**
   |============================
