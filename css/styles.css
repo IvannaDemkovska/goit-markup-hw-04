@@ -351,7 +351,7 @@ body {
 }
 .footer-cont {
   display: flex;
-  margin-right: 120px;
+  gap: 120px;
   align-items: baseline;
 }
 .footer-title {
